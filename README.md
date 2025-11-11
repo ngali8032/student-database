@@ -1,4 +1,4 @@
-/*# student-database
+# student-database
 
 ## 🧩 How to Run This Project in GitHub Codespaces
 
@@ -11,4 +11,4 @@
 3. In the terminal, type:
    ```bash
    make run
-   */
+
