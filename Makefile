@@ -1,6 +1,6 @@
 //Makefile
-a.out : main.o delete.o find.o insert.o print.o save.o sort.o sync.o
-        gcc main.o delete.o find.o insert.o print.o save.o sort.o sync.o
+database : main.o delete.o find.o insert.o print.o save.o sort.o sync.o
+        gcc main.o delete.o find.o insert.o print.o save.o sort.o sync.o -o database
 main.o : main.c
         gcc -c main.c
 delete.o : delete.c
@@ -17,3 +17,5 @@ sort.o : sort.c
         gcc -c sort.c
 sync.o : sync.c
         gcc -c sync.c
+run : database
+        ./database
